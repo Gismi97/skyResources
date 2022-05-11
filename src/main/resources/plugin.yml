@@ -1,0 +1,8 @@
+name: SkyResources
+version: '${version}'
+main: net.unicraft.skyresources.SkyResources
+api-version: 1.18
+authors: [ Gismi ]
+description: A plugin to get additional resources in SkyBlock
+commands:
+

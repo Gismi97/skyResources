@@ -1,0 +1,38 @@
+# Worlds for the Plugin to work in (leave empty to disable all features)
+SkyResourcesWorlds:
+  - world
+
+
+#Set to false to disable random blocks from cobblestone-generator
+enableRandomCobbleGen: true
+# Set to true to enable the changed generation only for Stone, increasing the difficulty a little,
+# since the lava has to be on top of the water. Otherwise the blocks have a chance to generate for both stone and cobblestone
+enableOnlyStone: false
+
+# Blocklist to generate from Cobble-Generator (supports up to 4 decimal places)
+cobbleGenChances:
+  IRON_ORE: 0.1
+  GOLD_ORE: 0.075
+  ANDESITE: 1.0000
+  GRANITE: 1.0000
+  DIORITE: 1.0000
+  DIRT: 0.1
+  DIAMOND_ORE: 0.01
+  REDSTONE_ORE: 0.08
+  LAPIS_ORE: 0.03
+
+# Set to false to disable random Leaves generation when using bonemeal on oak-sapling
+enableRandomLeaves: true
+# List of Leaf-Types and their chances to generate when growing Oak-Sapling with Bonemeal
+leavesChances:
+  ACACIA_LEAVES: 0.5
+  SPRUCE_LEAVES: 0.5
+  BIRCH_LEAVES: 0.5
+  JUNGLE_LEAVES: 0.5
+  DARK_OAK_LEAVES: 1.0
+
+#Max. amount of leaves to change per tree (-1 for no maximum amount,default 5)
+maxLeavesChanged: 5
+
+# Chance to turn Cobblestone into gravel and gravel into sand using a Hoe (-1 to disable)
+crushChance: 5
